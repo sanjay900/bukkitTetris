@@ -1,0 +1,29 @@
+name: Tetris
+main: net.gamesketch.bukkit.tetris.Core
+version: 0.9.1
+website: http://www.pwnedgalaxy.net/
+author: sanjay900
+depend: [ShatteredPlugin, ProtocolLib]
+authors: [sanjay900]
+description: >
+             Tetris simulator
+commands:
+  tetris:
+    description: Starts a tetris game for you.
+    usage: |
+           /<command> 
+  highscore:
+    aliases: highscores
+    description: Shows the tetris highscores
+    usage: |
+           /<command>
+  tspec:
+    aliases: [tspectate, twatch]
+    description: Spectating other tetris players
+    usage: |
+           /<command> player
+           Common errors are: Not an player, Not playing tetris, No arguments
+  tbuild:
+    description: Places blocks where you can tetris on
+    usage: |
+           /<command>
